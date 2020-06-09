@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'avalonregular';
-    src: url('fonts/avalon-webfont.woff2') format('woff2'),
-         url('fonts/avalon-webfont.woff') format('woff'),
-         url('fonts/avalon.otf') format('opentype'),
-         url('fonts/avalon.ttf') format('truetype');
+    font-family: 'avalon';
+    src: url('/fonts/avalon-webfont.woff2') format('woff2'),
+         url('/fonts/avalon-webfont.woff') format('woff'),
+         url('/fonts/avalon.otf') format('opentype'),
+         url('/fonts/avalon.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,12 +11,11 @@
 body,html {
   height: 100%;
   width: 100%;
-  max-width: 2000px;
   margin: 0 auto;
   padding: 0;
   background-color: #000;
   line-height: normal;
-  font-family: 'avalonregular' sans-serif;
+  font-family: 'avalon', sans-serif;
   color: #fff;
   letter-spacing: 5px;
   background-attachment: fixed;
@@ -32,7 +31,6 @@ body,html {
 }
 
 iframe {
-  padding: 0;
   margin: 10px;
   border-radius: 10%;
   filter: grayscale(1);
