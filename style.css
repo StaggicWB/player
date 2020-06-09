@@ -4,20 +4,22 @@ body,html {
   margin: 0 auto;
   padding: 0;
   background-color: #000;
-  background-image: url(files/astronaut.png);
-  background-position: center;
-  background-repeat: no-repeat;
   line-height: normal;
+  font-family: "Avalon", sans-serif;
   color: #fff;
   letter-spacing: 5px;
   background-attachment: fixed;
-  animation: website-loading 1s forwards ease-in alternate
+  background-image: url(files/astronaut-min.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: website-loading 1s forwards ease-in alternate;
 }
 
 @font-face {
     font-family: 'avalonregular';
     src: url('files/avalon-webfont.woff2') format('woff2'),
-         url('files/avalon-webfont.woff') format('woff');
+         url('files/avalon-webfont.woff') format('woff'),
+         url('files/avalon.otf') format('openType');
     font-weight: normal;
     font-style: normal;
 
@@ -30,7 +32,7 @@ body,html {
 
 iframe {
   position: relative;
-  margin: 30px;
+  margin: 20px;
   border-radius: 10%;
   filter: grayscale(1);
   transition: transform .2s;
@@ -64,7 +66,7 @@ iframe:hover {
 
 .container {
   position: relative;
-  width: 60%;
+  width: 55%;
   top: 57%;
   margin: 0 auto;
   display: flex;
@@ -98,13 +100,12 @@ to {opacity: 1}
 }
 
 .page-footer{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
 }
 
 .author p {
-  background-attachment: fixed;
   font-family: "Aoki", sans-serif;
   margin: 0 auto;
   font-weight: 300;
@@ -124,7 +125,7 @@ to {opacity: 1}
   z-index: 99;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #000;
   color: white;
   cursor: pointer;
   padding: 15px;
