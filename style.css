@@ -16,8 +16,8 @@ body,html {
 
 @font-face {
     font-family: 'avalonregular';
-    src: url('avalon-webfont.woff2') format('woff2'),
-         url('avalon-webfont.woff') format('woff');
+    src: url('files/avalon-webfont.woff2') format('woff2'),
+         url('files/avalon-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
