@@ -15,6 +15,15 @@ body,html {
   animation: website-loading 1s forwards ease-in alternate
 }
 
+@font-face {
+    font-family: 'avalonregular';
+    src: url('avalon-webfont.woff2') format('woff2'),
+         url('avalon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @keyframes website-loading {
   from {opacity: 0}
   to {opacity: 1}
