@@ -2,8 +2,8 @@
     font-family: 'avalon';
     src: url('/fonts/avalon-webfont.woff2') format('woff2'),
          url('/fonts/avalon-webfont.woff') format('woff'),
-         url('/fonts/avalon.otf') format('opentype'),
-         url('/fonts/avalon.ttf') format('truetype');
+         url('/fonts/avalon.otf') format('otf'),
+         url('/fonts/avalon.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
